@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="max-w-lg mx-auto mt-10 bg-dark-teal shadow shadow-black p-6 rounded-xl">
+    <div>
     Hello
     </div>
 </x-layout>
