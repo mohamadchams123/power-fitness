@@ -1,5 +1,5 @@
 <x-layout>
-    <div>
+    <div class="">
     Hello
     </div>
 </x-layout>

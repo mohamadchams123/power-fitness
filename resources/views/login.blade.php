@@ -1,5 +1,5 @@
 <x-layout>
-    <div>
+    <div class="">
         <h1 class="text-center text-xl uppercase">Log In!</h1>
         <form method="POST" action="/login" class="mt-10">
             @csrf
