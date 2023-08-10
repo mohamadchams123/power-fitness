@@ -39,7 +39,7 @@
                 {{-- buttons --}}
             </header>
             <x-flash />
-            <main class="max-w-lg mx-auto mt-10 bg-dark-teal shadow shadow-black p-6 rounded-xl">
+            <main>
                 {{$slot}}
             </main>
         </section>

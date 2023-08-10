@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="">
+    <div class="max-w-lg mx-auto mt-10 bg-dark-teal shadow shadow-black p-6 rounded-xl">
         <h1 class="text-center text-xl uppercase">Log In!</h1>
         <form method="POST" action="/login" class="mt-10">
             @csrf

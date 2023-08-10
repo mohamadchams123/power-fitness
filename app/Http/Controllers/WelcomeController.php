@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
@@ -10,8 +12,11 @@ class WelcomeController extends Controller
     {
         return view('login');
     }
-    public function welcome()
+    public function welcome(User $comments)
     {
-        return view('dashboard');
+        dd($comments);
+        return view('dashboard', [
+            'comments' => $comments
+        ]);
     }
 }
