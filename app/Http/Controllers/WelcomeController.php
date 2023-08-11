@@ -12,11 +12,18 @@ class WelcomeController extends Controller
     {
         return view('login');
     }
-    public function welcome(User $comments)
+    // public function welcome(Comment $comment)
+    // {
+    //     dd($comment);
+    //     return view('dashboard', [
+    //         'comments' => $comment
+    //     ]);
+    // }
+    public function welcome(Comment $comment)
     {
-        dd($comments);
+        ddd($comment);
         return view('dashboard', [
-            'comments' => $comments
+            'comments' => $comment
         ]);
     }
 }

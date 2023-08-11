@@ -7,7 +7,7 @@
     </div>
     <section class="max-w-lg mx-auto mt-10 bg-dark-teal shadow shadow-black p-6 rounded-xl mb-10">
         @foreach ($comments as $comment)
-        <p>test</p>
+        <p>test {{ $comment->user_id }}</p>
             <x-comment :comment="$comment" />
         @endforeach
     </section>
